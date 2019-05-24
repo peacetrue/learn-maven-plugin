@@ -11,7 +11,7 @@ v1.0, 2019-05-23: SNAPSHOT
 :source-highlighter: coderay
 :coderay-linenums-mode: inline
 
-参考 https://www.cnblogs.com/davenkin/p/advanced-maven-write-your-own-plugin.html[编写自己的Plugin]
+参考 https://www.cnblogs.com/davenkin/p/advanced-maven-write-your-own-plugin.html[编写自己的Plugin^]
 
 * 基于``maven-archetype-mojo``创建插件项目：
 image:mojo.gif[]
