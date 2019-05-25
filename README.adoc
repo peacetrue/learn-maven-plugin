@@ -13,9 +13,14 @@ v1.0, 2019-05-23: SNAPSHOT
 
 参考 https://www.cnblogs.com/davenkin/p/advanced-maven-write-your-own-plugin.html[编写自己的Plugin^]
 
+== 基本功能
 * 基于``maven-archetype-mojo``创建插件项目：
 image:mojo.gif[]
 * 打包安装到本地：``mvn clean install``
 * 运行插件：``mvn com.github.peacetrue.learn:peacetrue-learn-maven-plugin:1.0-SNAPSHOT:touch``
 * 会在target目录下生成一个touch.txt文件
 image:touch.png[]
+
+== 生成器插件原型
+通过一个样章项目调用插件，测试生成器功能
+
